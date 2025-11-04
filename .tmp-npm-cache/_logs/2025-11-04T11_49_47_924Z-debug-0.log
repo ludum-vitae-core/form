@@ -1,0 +1,53 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.17.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/robertalvarez/Desktop/npm packages/ludumvitae/form/.npmrc
+5 silly config load:file:/Users/robertalvarez/.npmrc
+6 silly config load:file:/Users/robertalvarez/.npm-global/etc/npmrc
+7 verbose title npm publish
+8 verbose argv "publish" "--access" "public" "--tag" "latest"
+9 verbose logfile logs-max:10 dir:/Users/robertalvarez/Desktop/npm packages/ludumvitae/form/.tmp-npm-cache/_logs/2025-11-04T11_49_47_924Z-
+10 verbose logfile /Users/robertalvarez/Desktop/npm packages/ludumvitae/form/.tmp-npm-cache/_logs/2025-11-04T11_49_47_924Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose publish [ '.' ]
+13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+14 notice
+15 notice package: @ludumvitae/form@0.0.1
+16 notice Tarball Contents
+17 notice 1.1kB LICENSE
+17 notice 2.5kB README.md
+17 notice 18.2kB dist/index.d.ts
+17 notice 36.9kB dist/index.js
+17 notice 85.5kB dist/index.js.map
+17 notice 1.5kB package.json
+18 notice Tarball Details
+19 notice name: @ludumvitae/form
+20 notice version: 0.0.1
+21 notice filename: ludumvitae-form-0.0.1.tgz
+22 notice package size: 24.3 kB
+23 notice unpacked size: 145.7 kB
+24 notice shasum: 0ff04e7e0409344e308ba528caa6ff4b44688f33
+25 notice integrity: sha512-L0fNJgV/Tvw+i[...]1lMi2UDoJsPpw==
+26 notice total files: 6
+27 notice
+28 notice Publishing to https://registry.npmjs.org/ with tag latest and public access
+29 verbose stack Error: Automatic provenance generation not supported for provider: null
+29 verbose stack     at ensureProvenanceGeneration (/usr/local/lib/node_modules/npm/node_modules/libnpmpublish/lib/publish.js:194:7)
+29 verbose stack     at buildMetadata (/usr/local/lib/node_modules/npm/node_modules/libnpmpublish/lib/publish.js:139:13)
+29 verbose stack     at publish (/usr/local/lib/node_modules/npm/node_modules/libnpmpublish/lib/publish.js:45:50)
+29 verbose stack     at /usr/local/lib/node_modules/npm/lib/commands/publish.js:162:43
+29 verbose stack     at otplease (/usr/local/lib/node_modules/npm/lib/utils/auth.js:8:18)
+29 verbose stack     at #publish (/usr/local/lib/node_modules/npm/lib/commands/publish.js:162:13)
+29 verbose stack     at async Publish.exec (/usr/local/lib/node_modules/npm/lib/commands/publish.js:46:5)
+29 verbose stack     at async Npm.exec (/usr/local/lib/node_modules/npm/lib/npm.js:207:9)
+29 verbose stack     at async module.exports (/usr/local/lib/node_modules/npm/lib/cli/entry.js:74:5)
+30 error code EUSAGE
+31 error Automatic provenance generation not supported for provider: null
+32 verbose cwd /Users/robertalvarez/Desktop/npm packages/ludumvitae/form
+33 verbose os Darwin 24.6.0
+34 verbose node v22.17.1
+35 verbose npm  v10.9.2
+36 verbose exit 1
+37 verbose code 1
+38 error A complete log of this run can be found in: /Users/robertalvarez/Desktop/npm packages/ludumvitae/form/.tmp-npm-cache/_logs/2025-11-04T11_49_47_924Z-debug-0.log
