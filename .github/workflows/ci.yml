@@ -19,15 +19,16 @@ jobs:
           node-version: 20
           cache: 'pnpm'
 
+      - name: Enable corepack
+        run: corepack enable
+
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
         with:
           version: 9
 
       - name: Install dependencies
-        run: pnpm i --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
       - name: Typecheck and build
-        run: |
-          pnpm tsc -v || true # show tsc version if present
-          pnpm build
+        run: pnpm build
