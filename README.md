@@ -1,6 +1,8 @@
 ## @ludumvitae/form
 
 [![npm version](https://img.shields.io/npm/v/@ludumvitae/form.svg)](https://www.npmjs.com/package/@ludumvitae/form)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/ludum-vitae-core/form)](https://github.com/ludum-vitae-core/form/releases)
+[![CI](https://github.com/ludum-vitae-core/form/actions/workflows/ci.yml/badge.svg)](https://github.com/ludum-vitae-core/form/actions/workflows/ci.yml)
 [![license: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 Links: [`GitHub repo`](https://github.com/ludum-vitae-core/form) · [`npm package`](https://www.npmjs.com/package/@ludumvitae/form)
