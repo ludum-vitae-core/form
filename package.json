@@ -14,12 +14,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lv-artifact/form.git"
+    "url": "git+https://github.com/ludum-vitae-core/form.git"
   },
   "bugs": {
-    "url": "https://github.com/lv-artifact/form/issues"
+    "url": "https://github.com/ludum-vitae-core/form/issues"
   },
-  "homepage": "https://github.com/lv-artifact/form#readme",
+  "homepage": "https://github.com/ludum-vitae-core/form#readme",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
